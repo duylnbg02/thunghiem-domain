@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.unitel.laoone",
+      "sha256_cert_fingerprints": [
+        "81:06:4F:DC:42:6B:E3:E8:5E:A9:65:24:2D:68:5C:A1:C8:AA:1E:02:D8:2B:9F:33:3E:C9:CF:C7:4C:62:13:B5"
+      ]
+    }
+  }
+]
