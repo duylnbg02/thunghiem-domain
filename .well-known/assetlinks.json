@@ -1,15 +1,32 @@
 [
-  {
-    "relation": [
-      "delegate_permission/common.handle_all_urls",
-      "delegate_permission/common.get_login_creds"
-    ],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.unitel.laoone",
-      "sha256_cert_fingerprints": [
-        "06:58:30:07:CF:00:C9:DF:7E:60:93:01:11:37:84:64:E4:4C:9A:CA:B9:B6:F1:2F:96:6F:E3:5A:19:77:F0:BA"
-      ]
-    }
-  }
+  {
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.unitel.laoone.dev",
+      "sha256_cert_fingerprints": [
+        "F6:10:FB:E1:18:EF:7B:FF:BB:A9:8C:70:89:7A:86:45:ED:CE:A5:A0:DE:36:34:D5:52:C4:7E:85:37:3D:3A:AB"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.unitel.laoone.stg",
+      "sha256_cert_fingerprints": [
+        "F6:10:FB:E1:18:EF:7B:FF:BB:A9:8C:70:89:7A:86:45:ED:CE:A5:A0:DE:36:34:D5:52:C4:7E:85:37:3D:3A:AB"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.unitel.laoone",
+      "sha256_cert_fingerprints": [
+        "F6:10:FB:E1:18:EF:7B:FF:BB:A9:8C:70:89:7A:86:45:ED:CE:A5:A0:DE:36:34:D5:52:C4:7E:85:37:3D:3A:AB"
+      ]
+    }
+  }
 ]
